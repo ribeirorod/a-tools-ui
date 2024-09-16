@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    max-height: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+.navswitch {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.navbuttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: 'center' 
+}

@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.4s ease, box-shadow 0.3s ease;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .direction-row {
+  flex-direction: row;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.card:hover {
+  cursor: pointer;
+} */
